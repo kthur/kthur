@@ -6,6 +6,7 @@
     sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
 
 sudo apt update && sudo apt install nvidia-container-tookit
+sudo systemctl restart docker
 ```
   ssh-keygen -f '/home/kthur/.ssh/known_hosts' -R 'github.com'
 
